@@ -1,6 +1,6 @@
 # LandTech Rota
 
-Rota is a Slack app + bot I wrote for internal company use to manage team rotations. This app was built with the [Bolt JavaScript Slack app framework](https://github.com/slackapi/bolt).
+This app was built with the [Bolt JavaScript Slack app framework](https://github.com/slackapi/bolt).
 
 ## Commands
 
