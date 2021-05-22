@@ -149,7 +149,7 @@ const msgText = {
     return ':shrug: I couldn\'t tell anyone about the message because "' + rotation + '" does not exist. To create it, use `@rota new "' + rotation + '" [description]`.';
   },
   didntUnderstand: (ec, msgText) => {
-    return ":thinking_face: I'm sorry, I didn't understand that. To see my full capabilities and learn how to format commands, type `@rota help`.\nUndecipherable message text: `" + msgText + "`\nResponse log:\n```" + ec + "```";
+    return ":thinking_face: I'm sorry, I didn't understand that. To see my full capabilities and learn how to format commands, type `@rota help`.";
   },
   error: (err) => {
     return ":cry: I'm sorry, I couldn't do that because an error occurred:\n```" + err + "```";
