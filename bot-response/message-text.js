@@ -49,7 +49,7 @@ const msgText = {
         str = str + `• ${user}\n`;
       }
       if (str.length) {
-        return `:card_index: The following people are on staff for the *${rotation}* rotation. _To save their notifications, this is only visible to you._\n` + str;
+        return `:landtech: The following people are on staff for the *${rotation}* rotation. _To save their notifications, this is only visible to you._\n` + str;
       }
     }
     return '_No staff list saved for this rotation._';
