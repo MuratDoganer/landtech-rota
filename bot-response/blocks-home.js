@@ -147,13 +147,6 @@ const homeBlocks = (userID, storeList) => {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": '```/gator @rota "[rotation]" I need some help with task XYZ please!```'
-      }
-    },
-    {
-      "type": "section",
-      "text": {
-        "type": "mrkdwn",
         "text": "*Note:* If you use `/remind`, the message will come from <@slackbot>, _not_ from your username."
       }
     }
@@ -168,7 +161,7 @@ const homeBlocks = (userID, storeList) => {
       "elements": [
         {
           "type": "mrkdwn",
-          "text": ":hammer_and_wrench: This app was built by <https://twitter.com/KimMaida|@KimMaida>. The source code can be found on GitHub at <https://github.com/kmaida/rota-slackbot|rota-slackbot>."
+          "text": ":hammer_and_wrench: This app was built by @Murat."
         }
       ]
     }

@@ -14,9 +14,9 @@
   "engines": {
     "node": "12.13.0"
   },
-  "author": "Kim Maida",
+  "author": "Murat Doganer",
   "repository": {
-    "url": "https://github.com/kmaida/rota-slackbot"
+    "url": "https://github.com/MuratDoganer/landtech-rota"
   },
   "license": "MIT",
   "keywords": [
