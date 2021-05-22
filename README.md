@@ -17,3 +17,9 @@ This app was built with the [Bolt JavaScript Slack app framework](https://github
 * `@rota "[rotation]" [message]` sends a direct message to the on-call user for the rotation, notifying them that your message needs attention.
 * `@rota list` displays a list of all currently known rotations.
 * `@rota help` shows how to use the bot.
+
+## To-Do
+
+- Clean up the code a bit
+- Fix the `App Home` link in the `@rota help` message - currently its not pulling the correct link
+- Clean up the Intro text and the `@rota help` messages, maybe less info is better?  
