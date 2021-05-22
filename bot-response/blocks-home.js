@@ -168,7 +168,7 @@ const homeBlocks = (userID, storeList) => {
       "elements": [
         {
           "type": "mrkdwn",
-          "text": ":hammer_and_wrench: This app was built by @Murat."
+          "text": ":hammer_and_wrench: This app was built by @Murat. v0.5 BETA May 2021"
         }
       ]
     }
