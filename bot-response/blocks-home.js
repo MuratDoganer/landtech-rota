@@ -140,9 +140,16 @@ const homeBlocks = (userID, storeList) => {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "You can schedule messages to be delivered later. This works with both the built-in `/remind` slash command (similar to above), and also with third party Slack apps like <https://www.gator.works/|Gator>. Just schedule the message _in a channel_ that I've been added to. For example:"
+        "text": "You can schedule messages to be delivered later. This works with both the built-in `/remind` slash command (similar to above), and also with third party Slack apps like <https://zapier.com/app/login|Zapier>. Just schedule the message _in a channel_ that I've been added to. For example:"
       }
     },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "By creating a *New Zap* and adding _Schedule by Zapier_, choosing your scheduled times, and then connecting that to Slack. Be sure to check `Send As A Bot` to `False` - otherwise the scheduled message will not trigger the Rota."
+      }
+    },  
     {
       "type": "section",
       "text": {
