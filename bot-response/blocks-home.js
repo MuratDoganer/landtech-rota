@@ -59,7 +59,7 @@ const homeBlocks = (userID, storeList) => {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": `:card_index: *<@${userID}> Is On Rotation Staff:*`
+        "text": `:landtech: *<@${userID}> Is On Rotation Staff:*`
       }
     },
     {
